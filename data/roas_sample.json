@@ -1,0 +1,74 @@
+[
+  {
+    "prefix": "1.1.1.0/24",
+    "max_length": 24,
+    "asn": 13335,
+    "tai": "APNIC"
+  },
+  {
+    "prefix": "1.0.0.0/24",
+    "max_length": 24,
+    "asn": 13335,
+    "tai": "APNIC"
+  },
+  {
+    "prefix": "8.8.8.0/24",
+    "max_length": 24,
+    "asn": 15169,
+    "tai": "ARIN"
+  },
+  {
+    "prefix": "8.8.4.0/24",
+    "max_length": 24,
+    "asn": 15169,
+    "tai": "ARIN"
+  },
+  {
+    "prefix": "9.9.9.0/24",
+    "max_length": 24,
+    "asn": 19281,
+    "tai": "ARIN"
+  },
+  {
+    "prefix": "208.65.152.0/22",
+    "max_length": 22,
+    "asn": 36561,
+    "tai": "ARIN"
+  },
+  {
+    "prefix": "93.184.216.0/20",
+    "max_length": 20,
+    "asn": 15133,
+    "tai": "RIPE NCC"
+  },
+  {
+    "prefix": "151.101.0.0/16",
+    "max_length": 24,
+    "asn": 54113,
+    "tai": "ARIN"
+  },
+  {
+    "prefix": "52.94.0.0/16",
+    "max_length": 24,
+    "asn": 16509,
+    "tai": "ARIN"
+  },
+  {
+    "prefix": "20.0.0.0/11",
+    "max_length": 24,
+    "asn": 8075,
+    "tai": "ARIN"
+  },
+  {
+    "prefix": "198.51.200.0/22",
+    "max_length": 24,
+    "asn": 64496,
+    "tai": "TEST"
+  },
+  {
+    "prefix": "198.51.200.0/22",
+    "max_length": 24,
+    "asn": 20000,
+    "tai": "TEST"
+  }
+]

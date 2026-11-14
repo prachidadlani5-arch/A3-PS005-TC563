@@ -1,0 +1,101 @@
+[
+  {
+    "timestamp": "2026-11-06T10:00:00Z",
+    "peer_ip": "195.66.225.1",
+    "peer_asn": 5459,
+    "prefix": "1.1.1.0/24",
+    "origin_asn": 13335,
+    "as_path": "5459 3356 1299 13335",
+    "as_path_len": 4,
+    "ground_truth_label": "BENIGN",
+    "anomaly_scenario": "Normal Route"
+  },
+  {
+    "timestamp": "2026-11-06T10:00:05Z",
+    "peer_ip": "198.32.176.1",
+    "peer_asn": 24115,
+    "prefix": "8.8.8.0/24",
+    "origin_asn": 15169,
+    "as_path": "24115 174 15169",
+    "as_path_len": 3,
+    "ground_truth_label": "BENIGN",
+    "anomaly_scenario": "Normal Route"
+  },
+  {
+    "timestamp": "2026-11-06T10:00:10Z",
+    "peer_ip": "80.249.208.1",
+    "peer_asn": 1200,
+    "prefix": "198.51.200.0/22",
+    "origin_asn": 64496,
+    "as_path": "1200 2914 3356 64496",
+    "as_path_len": 4,
+    "ground_truth_label": "BENIGN",
+    "anomaly_scenario": "Multi-Homed Primary"
+  },
+  {
+    "timestamp": "2026-11-06T10:00:15Z",
+    "peer_ip": "80.249.208.1",
+    "peer_asn": 1200,
+    "prefix": "198.51.200.0/22",
+    "origin_asn": 20000,
+    "as_path": "1200 6939 20000",
+    "as_path_len": 3,
+    "ground_truth_label": "BENIGN",
+    "anomaly_scenario": "Multi-Homed Secondary Failover"
+  },
+  {
+    "timestamp": "2026-11-06T10:00:20Z",
+    "peer_ip": "195.66.225.1",
+    "peer_asn": 5459,
+    "prefix": "93.184.216.0/20",
+    "origin_asn": 15133,
+    "as_path": "5459 3356 15133",
+    "as_path_len": 3,
+    "ground_truth_label": "BENIGN",
+    "anomaly_scenario": "Normal Supernet"
+  },
+  {
+    "timestamp": "2026-11-06T10:00:25Z",
+    "peer_ip": "195.66.225.1",
+    "peer_asn": 5459,
+    "prefix": "93.184.216.0/24",
+    "origin_asn": 15133,
+    "as_path": "5459 3356 15133",
+    "as_path_len": 3,
+    "ground_truth_label": "MALICIOUS",
+    "anomaly_scenario": "Subprefix Hijack (Invalid-Length /24 within /20)"
+  },
+  {
+    "timestamp": "2026-11-06T10:00:30Z",
+    "peer_ip": "198.32.176.1",
+    "peer_asn": 24115,
+    "prefix": "1.1.1.0/24",
+    "origin_asn": 99999,
+    "as_path": "24115 174 99999",
+    "as_path_len": 3,
+    "ground_truth_label": "MALICIOUS",
+    "anomaly_scenario": "Unexpected Origin Hijack (Invalid-ASN)"
+  },
+  {
+    "timestamp": "2026-11-06T10:00:35Z",
+    "peer_ip": "206.108.34.1",
+    "peer_asn": 10310,
+    "prefix": "1.1.1.0/24",
+    "origin_asn": 13335,
+    "as_path": "10310 3356 64512 13335",
+    "as_path_len": 4,
+    "ground_truth_label": "MALICIOUS",
+    "anomaly_scenario": "Bogon AS64512 in Path"
+  },
+  {
+    "timestamp": "2026-11-06T10:00:40Z",
+    "peer_ip": "195.66.225.1",
+    "peer_asn": 5459,
+    "prefix": "208.65.153.0/24",
+    "origin_asn": 17557,
+    "as_path": "5459 3356 3491 17557",
+    "as_path_len": 4,
+    "ground_truth_label": "MALICIOUS",
+    "anomaly_scenario": "2008 YouTube Hijack Replay"
+  }
+]
